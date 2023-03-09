@@ -1,5 +1,6 @@
 import numpy as np
-import activ.NoActivation
+from activ import NoActivation
+from optim import Adam
 class Dropout:
     def __name__(self):
         return 'Dropout'

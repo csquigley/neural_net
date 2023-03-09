@@ -1,6 +1,7 @@
 import numpy as np
 from math import e, log, sqrt
 import json
+from costs import SquaredError
 
 class Network:
     
